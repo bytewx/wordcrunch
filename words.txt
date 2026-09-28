@@ -1,0 +1,20 @@
+the quick brown fox jumps over the lazy dog while the sun sets behind the hills
+a small river runs through the old town and the children play near the bridge every day
+go is a simple language and simple tools make good programs
+concurrency is not parallelism but concurrency makes parallelism easy to reason about
+a goroutine is cheap and a channel is a safe way to share data between goroutines
+do not communicate by sharing memory instead share memory by communicating
+the worker reads a line and counts every word and sends the result to the reducer
+a mutex protects the map and only one goroutine can write to the map at a time
+the reducer collects partial counts from all workers and merges them into one final map
+error handling in go is explicit and every function returns an error when something goes wrong
+the file is split into chunks and each chunk is processed by a separate worker
+performance matters but correctness matters more so test the program before you optimize it
+the cat sat on the mat and the dog sat on the log and the bird sat on the fence
+apple banana cherry date elderberry fig grape apple banana cherry apple banana apple
+morning coffee evening tea night sleep morning coffee evening tea morning coffee morning
+red green blue yellow orange purple red green blue red green red
+one two three four five six seven eight nine ten one two three one two one
+the end of the file is near but the count of words is what matters the most
+read write count merge print read write count merge read write count read write read
+data flows through the pipeline from the reader to the workers and from the workers to the reducer
